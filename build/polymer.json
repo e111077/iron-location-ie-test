@@ -1,0 +1,29 @@
+{
+  "entrypoint": "index.html",
+  "shell": "bower_components/iron-location/iron-location.html",
+  "fragments": [],
+  "sources": [
+    "src/**/*",
+    "index.html",
+    "bower_components/iron-location/iron-location.html"
+  ],
+  "extraDependencies": [
+    "bower_components/webcomponentsjs/*.js"
+  ],
+  "builds": [
+    {
+      "name": "../docs",
+      "bundle": false,
+      "js": {
+        "minify": false,
+        "compile": true
+      },
+      "css": {
+        "minify": false
+      },
+      "html": {
+        "minify": false
+      }
+    }
+  ]
+}

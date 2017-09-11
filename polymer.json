@@ -1,0 +1,18 @@
+{
+  "entrypoint": "index.html",
+  "shell": "bower_components/iron-location/iron-location.html",
+  "builds": [{
+    "name": "../docs",
+    "bundle": false,
+    "js": {
+      "minify": false,
+      "compile": true
+    },
+    "css": {
+      "minify": false
+    },
+    "html": {
+      "minify": false
+    }
+  }]
+}
